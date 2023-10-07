@@ -1,0 +1,11 @@
+nums1=[1,2]
+nums2=[3]
+arr=[]
+arr=nums1+nums2
+mid=len(arr)//2
+if(len(arr)%2==0):
+    median=arr[mid]+arr[mid-1]
+    print(float(median)/2.0)
+elif(len(arr)%2!=0):
+    median=arr[mid]
+    print(float(median))
